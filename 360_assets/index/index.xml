@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/00000.png" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="spot1" renderMode="0" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true">
+      <spotinfo txt="PRUEBA 1" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="spot3" renderMode="0" indicatorImage="circ-cross-thin-red.svg" activateOnClick="true">
+      <spotinfo txt="PRUEBA 2" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1440">
+    <image src="images/00000.png">
+      <hotspot source="spot1" offsetX="302" offsetY="150" />
+      <hotspot source="spot3" offsetX="411" offsetY="63" />
+      <highres src="images/highres/00000.png" />
+    </image>
+    <image src="images/00001.png">
+      <hotspot source="spot1" offsetX="300" offsetY="147" />
+      <hotspot source="spot3" offsetX="425" offsetY="70" />
+      <highres src="images/highres/00001.png" />
+    </image>
+    <image src="images/00002.png">
+      <hotspot source="spot1" offsetX="300" offsetY="147" />
+      <hotspot source="spot3" offsetX="451" offsetY="85" />
+      <highres src="images/highres/00002.png" />
+    </image>
+    <image src="images/00003.png">
+      <hotspot source="spot1" offsetX="301" offsetY="147" />
+      <hotspot source="spot3" offsetX="474" offsetY="113" />
+      <highres src="images/highres/00003.png" />
+    </image>
+    <image src="images/00004.png">
+      <hotspot source="spot1" offsetX="301" offsetY="149" />
+      <hotspot source="spot3" offsetX="488" offsetY="139" />
+      <highres src="images/highres/00004.png" />
+    </image>
+    <image src="images/00005.png">
+      <hotspot source="spot1" offsetX="300" offsetY="148" />
+      <hotspot source="spot3" offsetX="493" offsetY="172" />
+      <highres src="images/highres/00005.png" />
+    </image>
+    <image src="images/00006.png">
+      <hotspot source="spot1" offsetX="300" offsetY="148" />
+      <hotspot source="spot3" offsetX="491" offsetY="205" />
+      <highres src="images/highres/00006.png" />
+    </image>
+    <image src="images/00007.png">
+      <hotspot source="spot1" offsetX="300" offsetY="148" />
+      <hotspot source="spot3" offsetX="478" offsetY="236" />
+      <highres src="images/highres/00007.png" />
+    </image>
+    <image src="images/00008.png">
+      <hotspot source="spot1" offsetX="300" offsetY="148" />
+      <hotspot source="spot3" offsetX="459" offsetY="263" />
+      <highres src="images/highres/00008.png" />
+    </image>
+    <image src="images/00009.png">
+      <hotspot source="spot1" offsetX="300" offsetY="148" />
+      <hotspot source="spot3" offsetX="427" offsetY="289" />
+      <highres src="images/highres/00009.png" />
+    </image>
+    <image src="images/00010.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="386" offsetY="304" />
+      <highres src="images/highres/00010.png" />
+    </image>
+    <image src="images/00011.png">
+      <hotspot source="spot1" offsetX="302" offsetY="149" />
+      <hotspot source="spot3" offsetX="341" offsetY="312" />
+      <highres src="images/highres/00011.png" />
+    </image>
+    <image src="images/00012.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="294" offsetY="314" />
+      <highres src="images/highres/00012.png" />
+    </image>
+    <image src="images/00013.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="250" offsetY="308" />
+      <highres src="images/highres/00013.png" />
+    </image>
+    <image src="images/00014.png">
+      <hotspot source="spot1" offsetX="299" offsetY="149" />
+      <hotspot source="spot3" offsetX="207" offsetY="292" />
+      <highres src="images/highres/00014.png" />
+    </image>
+    <image src="images/00015.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="173" offsetY="273" />
+      <highres src="images/highres/00015.png" />
+    </image>
+    <image src="images/00016.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="147" offsetY="250" />
+      <highres src="images/highres/00016.png" />
+    </image>
+    <image src="images/00017.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="131" offsetY="223" />
+      <highres src="images/highres/00017.png" />
+    </image>
+    <image src="images/00018.png">
+      <hotspot source="spot1" offsetX="299" offsetY="153" />
+      <hotspot source="spot3" offsetX="119" offsetY="192" />
+      <highres src="images/highres/00018.png" />
+    </image>
+    <image src="images/00019.png">
+      <hotspot source="spot1" offsetX="300" offsetY="150" />
+      <hotspot source="spot3" offsetX="114" offsetY="171" />
+      <highres src="images/highres/00019.png" />
+    </image>
+    <image src="images/00020.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="121" offsetY="139" />
+      <highres src="images/highres/00020.png" />
+    </image>
+    <image src="images/00021.png">
+      <hotspot source="spot1" offsetX="300" offsetY="150" />
+      <hotspot source="spot3" offsetX="134" offsetY="114" />
+      <highres src="images/highres/00021.png" />
+    </image>
+    <image src="images/00022.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="154" offsetY="93" />
+      <highres src="images/highres/00022.png" />
+    </image>
+    <image src="images/00023.png">
+      <hotspot source="spot1" offsetX="298" offsetY="149" />
+      <hotspot source="spot3" offsetX="174" offsetY="70" />
+      <highres src="images/highres/00023.png" />
+    </image>
+    <image src="images/00024.png">
+      <hotspot source="spot1" offsetX="298" offsetY="149" />
+      <hotspot source="spot3" offsetX="200" offsetY="58" />
+      <highres src="images/highres/00024.png" />
+    </image>
+    <image src="images/00025.png">
+      <hotspot source="spot1" offsetX="303" offsetY="149" />
+      <hotspot source="spot3" offsetX="235" offsetY="46" />
+      <highres src="images/highres/00025.png" />
+    </image>
+    <image src="images/00026.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="267" offsetY="39" />
+      <highres src="images/highres/00026.png" />
+    </image>
+    <image src="images/00027.png">
+      <hotspot source="spot1" offsetX="300" offsetY="147" />
+      <hotspot source="spot3" offsetX="302" offsetY="35" />
+      <highres src="images/highres/00027.png" />
+    </image>
+    <image src="images/00028.png">
+      <hotspot source="spot1" offsetX="300" offsetY="147" />
+      <hotspot source="spot3" offsetX="335" offsetY="38" />
+      <highres src="images/highres/00028.png" />
+    </image>
+    <image src="images/00029.png">
+      <hotspot source="spot1" offsetX="300" offsetY="149" />
+      <hotspot source="spot3" offsetX="369" offsetY="45" />
+      <highres src="images/highres/00029.png" />
+    </image>
+    <image src="images/00030.png">
+      <hotspot source="spot1" offsetX="300" offsetY="147" />
+      <hotspot source="spot3" offsetX="400" offsetY="57" />
+      <highres src="images/highres/00030.png" />
+    </image>
+  </images>
+</config>
